@@ -1,6 +1,4 @@
 import cv2
-import threading
-
 
 face_cap=cv2.CascadeClassifier("C:/Users/SURAJ/AppData/Local/Programs/Python/Python312/Lib/site-packages/cv2/data/haarcascade_frontalface_default.xml")
 video_cap  = cv2.VideoCapture(0)
